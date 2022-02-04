@@ -58,8 +58,10 @@ IO.puts "#{Kernel.is_binary(msn)}" # função de verificação de tipo
 
 IO.puts("\n\n")
 
-take_prefix = fn full, prefix->
-base= String.length(prefix)
-String.slice(full, base, String.length(full) - base)
-end
+IO.puts("#{String.slice(msn, 10, 50)}")
+IO.puts("#{String.codepoints("olá mundo")}")
+IO.puts ("#{String.to_charlist("olá everton")}")
+IO.puts ("#{String.split("olá verton",["  ", "!"])}")
+IO.puts ("#{String.reverse("Ana")}")
+
 

@@ -1,4 +1,1 @@
-defmodule TestandoGui do
-  @moduledoc false
-
-end
+IO.puts "pegouuuuuu "
